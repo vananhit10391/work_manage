@@ -1,0 +1,36 @@
+plugins {
+	id 'org.springframework.boot' version '2.4.3'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'vananh'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '15'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compileOnly 'org.projectlombok:lombok'
+	runtimeOnly 'mysql:mysql-connector-java'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-devtools', version: '2.4.3'
+	implementation group: 'org.hibernate', name: 'hibernate-validator', version: '7.0.1.Final'
+	implementation group: 'joda-time', name: 'joda-time', version: '2.10.10'
+	compileOnly group: 'javax', name: 'javaee-web-api', version: '8.0.1'
+}
+
+test {
+	useJUnitPlatform()
+}
