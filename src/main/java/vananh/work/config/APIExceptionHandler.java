@@ -1,7 +1,6 @@
 package vananh.work.config;
 
 import org.springframework.http.HttpStatus;
-import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.validation.FieldError;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -9,9 +8,9 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.context.request.WebRequest;
-import vananh.work.common.exception.ErrorArgumentsMessage;
-import vananh.work.common.exception.ErrorMessage;
-import vananh.work.common.exception.ResourceNotFoundException;
+import vananh.work.exception.ErrorArgumentsMessage;
+import vananh.work.exception.ErrorMessage;
+import vananh.work.exception.ResourceNotFoundException;
 import vananh.work.util.constant.ErrorCode;
 
 import java.util.HashMap;

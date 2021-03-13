@@ -1,4 +1,4 @@
-package vananh.work.common.exception;
+package vananh.work.exception;
 
 import lombok.Getter;
 

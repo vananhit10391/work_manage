@@ -114,7 +114,20 @@
       <recent name="$PROJECT_DIR$/src/main/resources/i18n" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.WorkManageApplication">
+  <component name="RunManager" selected="Gradle.WorkControllerTest.testAddNewWork">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WorkControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -219,10 +232,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.WorkControllerTest.testAddNewWork" />
         <item itemvalue="Gradle.WorkControllerTest.testUpdateWork" />
         <item itemvalue="Gradle.WorkControllerTest.testDeleteWork" />
         <item itemvalue="Gradle.WorkControllerTest" />
-        <item itemvalue="Gradle.WorkControllerTest.testAddNewWork" />
         <item itemvalue="Gradle.WorkControllerTest.testAddWork" />
       </list>
     </recent_temporary>

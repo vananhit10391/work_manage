@@ -6,9 +6,9 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;;
-import vananh.work.common.exception.BadRequestException;
+import vananh.work.exception.BadRequestException;
 import vananh.work.entity.Work;
-import vananh.work.common.exception.ResourceNotFoundException;
+import vananh.work.exception.ResourceNotFoundException;
 import vananh.work.service.WorkService;
 import vananh.work.util.MessageUtil;
 
