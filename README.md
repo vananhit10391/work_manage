@@ -1,6 +1,6 @@
 # work_manage module
 ## API: get all work
-* `curl -H "Content-Type: application/json" -XGET localhost:8082/work/?size=10&page=0&sort=endingDate,asc`
+* `curl -H "Content-Type: application/json" -XGET "localhost:8082/work/?size=10&page=0&sort=endingDate,asc&sort=startingDate,desc"`
 ## API: get work by name
 * `curl -H "Content-Type: application/json" -XGET localhost:8082/work/{name}`
 ## API: add new work
