@@ -9,3 +9,4 @@
 * `curl -d '{"workName": "Work_01", "startingDate": "2020-01-13","endingDate":"2020-03-14","status": "Planning"}' -H "Content-Type: application/json" -XPUT localhost:8082/work/`
 ## API: delete work by name
 * `curl -H "Content-Type: application/json" -XDELETE "localhost:8082/work/{name}"`
+* fffff
